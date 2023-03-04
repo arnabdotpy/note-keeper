@@ -3,8 +3,7 @@ import Note from "../../../mongo/model";
 
 export default async function getNote(req, res) {
   await connectMongo();
-  Note.find({})
-  .then((notes) => {
+  Note.find({}).then((notes) => {
     res.status(200).json(notes);
   })
 }
