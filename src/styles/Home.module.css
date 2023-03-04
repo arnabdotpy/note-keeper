@@ -40,3 +40,24 @@
     background-color: #4b4b4b;
     transition: 150ms;
 }
+
+.notes {
+    max-width: 90%;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+}
+
+@media (min-width: 600px) {
+    .notes { grid-template-columns: repeat(2, 1fr); }
+  }
+
+@media (min-width: 900px) {
+    .notes { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 1200px) {
+    .notes { grid-template-columns: repeat(4, 1fr); }
+}
+  
+  
