@@ -9,5 +9,5 @@ export default async function addNote(req, res) {
     content: req.body.content,
   });
   await note.save();
-  res.send("Added Successfully");
+  res.status(200).redirect("/")
 }

@@ -1,0 +1,13 @@
+.card{
+    padding: 1rem 1.5rem;
+    background-color: #ffffff22;
+    max-width: 20rem;
+}
+
+.title{
+    background-color: #ffffff00;
+}
+
+.content{
+    background-color: #ffffff00;
+}
