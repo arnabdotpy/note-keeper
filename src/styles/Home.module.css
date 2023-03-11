@@ -3,21 +3,25 @@
     flex-direction: column;
     margin: auto; 
     margin-top: 2rem;
-    border: 2px solid #6b6b6b;
+    border: 2px solid #609966;
     border-radius: 4px;
-    background-color: #343434;
+    background-color: #EDF1D6;
     max-width: 30rem;
 }
 
 .textarea1 {
     width: 100%;
-    height: 45px;
+    height: 47px;
     padding: 12px 20px;
     box-sizing: border-box;
     font-size: 16px;
     resize: none;
     background-color: transparent;
+    color: #40513B;
+    border-bottom: 2px solid;
+    border-bottom-color: #87b28cfa
 }
+
 .textarea2 {
     width: 100%;
     height: 100px;
@@ -26,6 +30,12 @@
     font-size: 16px;
     resize: none;
     background-color: transparent;
+    color: #40513B;
+}
+
+.textarea1:focus, .textarea2:focus {
+    outline: none !important;
+    box-shadow: 0 0 3px #40513B;
 }
 
 .btn {
@@ -34,10 +44,11 @@
     padding: 1rem 0;
     cursor: pointer;
     transition: 150ms;
+    background-color: #609966;
 }
 
 .btn:hover {
-    background-color: #4b4b4b;
+    background-color: #40513B;
     transition: 150ms;
 }
 
@@ -59,5 +70,3 @@
 @media (min-width: 1200px) {
     .notes { grid-template-columns: repeat(4, 1fr); }
 }
-  
-  

@@ -3,12 +3,35 @@
     background-color: #ffffff22;
     max-width: 20rem;
     margin-top: 2rem;
+    border-radius: 8px;
+    position: relative;
+    transition: 300ms;
+    background-color: #609966;
 }
 
 .title{
-    background-color: #ffffff00;
+    background-color: transparent;
 }
 
 .content{
-    background-color: #ffffff00;
+    background-color: transparent;
+}
+
+.delete_btn {
+    background-color: transparent;    
+    cursor: pointer;
+    transition: 100ms;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.delete_btn:hover {
+    background-color: transparent;
+    transition: 100ms;
+    scale: 120%;
+}
+
+.form {
+    background-color: transparent;
 }
